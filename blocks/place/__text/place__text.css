@@ -1,0 +1,23 @@
+.place__text {
+  color: #ffffff;
+  grid-area: text;
+  max-width: 484px;
+}
+
+@media screen and (max-width: 1279px) {
+  .place__text {
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__text {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__text {
+    max-width: 288px;
+  }
+}
