@@ -5,6 +5,7 @@
   max-width: calc(100% - 296px);
   padding-bottom: 92px;
   align-items: center;
+  max-width: 984px;
 }
 
 @media screen and (max-width: 1279px) {
