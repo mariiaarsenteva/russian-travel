@@ -13,7 +13,6 @@
   justify-content: center;
   text-align: center;
   background-image: url("../../images/cover-trains.jpg");
-  max-width: 1184px;
 }
 
 .cover::before {
@@ -54,4 +53,3 @@
     width: 100%;
   }
 }
-

@@ -3,18 +3,25 @@
   grid-template-areas:
     "title website"
     "image text";
-  column-gap: 32px;
+  column-gap: 40px;
   row-gap: 48px;
   margin: 0 auto;
   padding: 0;
 }
+
+@media screen and (max-width: 1279px) {
+  .place {
+    column-gap: 32px;
+  }
+}
+
 @media screen and (max-width: 1023px) {
   .place {
     column-gap: 28px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 640px) {
   .place {
     grid-template-areas:
       "title"
@@ -22,5 +29,8 @@
       "image"
       "text";
     row-gap: 32px;
+    column-gap: 0;
+    margin: 0;
+    max-width: 320px;
   }
 }

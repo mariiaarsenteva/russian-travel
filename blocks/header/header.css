@@ -1,12 +1,16 @@
 .header {
   display: flex;
   justify-content: space-between;
-  max-width: calc(100% - 96px);
   padding: 0;
   padding-top: 28px;
   padding-bottom: 56px;
   margin: 0 auto;
-  max-width:1184px;
+  max-width: 1184px;
+}
+@media screen and (max-width: 1279px) {
+  .header {
+    max-width: calc(100% - 96px);
+  }
 }
 
 @media screen and (max-width: 1023px) {
