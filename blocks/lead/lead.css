@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  max-width: calc(100% - 296px);
   padding-bottom: 92px;
   align-items: center;
   max-width: 984px;
